@@ -70,8 +70,9 @@ import family_5 from '../img/family_5.webp'
 import { useEffect } from 'react';
 
 function Landing() {
+
     useEffect(() => {
-        imageList = [hero_mobile, hero]
+        const imageList = [hero_mobile, hero]
         imageList.forEach((image) => {
             new Image().src = image
         });
