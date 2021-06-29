@@ -16,6 +16,9 @@ function DoctorAlt(props) {
                 <h2 className="mt-0.5 text-center text-xl">{props.titles}</h2>
             </div>
             <img src={props.logo} className="w-[190px]" alt="" />
+            {props.logo2 &&
+                <img src={props.logo2} className="mt-4 w-[190px]" alt="" />
+            }
         </div>
     )
 }

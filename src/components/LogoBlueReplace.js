@@ -1,8 +1,8 @@
 import React from 'react'
 
-function LogoBlue() {
+function LogoBlueReplace() {
     return (
-        <h1 className="hidden xl:block left-[50px] top-5 fixed startLogo">
+        <h1 className="hidden xl:block left-[50px] top-[-200px] absolute altLogo ">
             <svg width="101" height="37" viewBox="0 0 101 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M5.796 7.03195H2.652L2.148 8.51995H0L3.048 0.0959473H5.424L8.472 8.51995H6.3L5.796 7.03195ZM5.268 5.44795L4.224 2.36395L3.192 5.44795H5.268Z" fill="#708CB1" />
                 <path d="M21.6997 0.0959473V8.51995H19.6477V3.46795L17.7637 8.51995H16.1077L14.2117 3.45595V8.51995H12.1597V0.0959473H14.5837L16.9477 5.92795L19.2877 0.0959473H21.6997Z" fill="#708CB1" />
@@ -37,4 +37,4 @@ function LogoBlue() {
     )
 }
 
-export default LogoBlue
+export default LogoBlueReplace

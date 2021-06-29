@@ -3,7 +3,7 @@ import React from 'react'
 function LargeButton(props) {
     return (
 
-        <button className={"px-14 py-[18px] inline-block focus:outline-none  text-white rounded-full text-2xl font-bold whitespace-nowrap " + (props.color ? props.color : 'bg-[#BAD036]')}>{props.text}</button>
+        <button className={"px-14 py-[18px] inline-block focus:outline-none  text-white rounded-full text-lg xl:text-2xl font-bold whitespace-nowrap " + (props.color ? props.color : 'bg-[#BAD036]')}>{props.text}</button>
 
     )
 }

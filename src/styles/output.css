@@ -584,6 +584,9 @@ video {
 .top-1\/2 {
 	top: 50%;
 }
+.left-\[50px\] {
+	left: 50px;
+}
 .z-20 {
 	z-index: 20;
 }
@@ -601,6 +604,9 @@ video {
 }
 .z-\[-10\] {
 	z-index: -10;
+}
+.z-40 {
+	z-index: 40;
 }
 .order-3 {
 	order: 3;
@@ -731,6 +737,9 @@ video {
 .mt-9 {
 	margin-top: 2.25rem;
 }
+.mt-20 {
+	margin-top: 5rem;
+}
 .block {
 	display: block;
 }
@@ -779,6 +788,9 @@ video {
 .h-1\/2 {
 	height: 50%;
 }
+.h-40 {
+	height: 10rem;
+}
 .w-\[150px\] {
 	width: 150px;
 }
@@ -812,6 +824,9 @@ video {
 .w-\[100px\] {
 	width: 100px;
 }
+.w-40 {
+	width: 10rem;
+}
 .flex-shrink-0 {
 	flex-shrink: 0;
 }
@@ -836,6 +851,9 @@ video {
 .cursor-pointer {
 	cursor: pointer;
 }
+.grid-flow-row {
+	grid-auto-flow: row;
+}
 .grid-cols-6 {
 	grid-template-columns: repeat(6, minmax(0, 1fr));
 }
@@ -859,6 +877,12 @@ video {
 }
 .justify-center {
 	justify-content: center;
+}
+.justify-around {
+	justify-content: space-around;
+}
+.justify-end {
+	justify-content: flex-end;
 }
 .gap-y-6 {
 	row-gap: 1.5rem;
@@ -930,6 +954,16 @@ video {
 	--tw-space-x-reverse: 0;
 	margin-right: calc(3rem * var(--tw-space-x-reverse));
 	margin-left: calc(3rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.space-x-5 > :not([hidden]) ~ :not([hidden]) {
+	--tw-space-x-reverse: 0;
+	margin-right: calc(1.25rem * var(--tw-space-x-reverse));
+	margin-left: calc(1.25rem * calc(1 - var(--tw-space-x-reverse)));
+}
+.space-x-8 > :not([hidden]) ~ :not([hidden]) {
+	--tw-space-x-reverse: 0;
+	margin-right: calc(2rem * var(--tw-space-x-reverse));
+	margin-left: calc(2rem * calc(1 - var(--tw-space-x-reverse)));
 }
 .self-center {
 	align-self: center;
@@ -1097,6 +1131,10 @@ video {
 	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
+.py-6 {
+	padding-top: 1.5rem;
+	padding-bottom: 1.5rem;
+}
 .pr-8 {
 	padding-right: 2rem;
 }
@@ -1151,6 +1189,9 @@ video {
 }
 .text-\[34px\] {
 	font-size: 34px;
+}
+.text-\[24px\] {
+	font-size: 24px;
 }
 .font-bold {
 	font-weight: 700;
@@ -1398,6 +1439,11 @@ video {
 	.xl\:px-32 {
 		padding-left: 8rem;
 		padding-right: 8rem;
+	}
+
+	.xl\:py-24 {
+		padding-top: 6rem;
+		padding-bottom: 6rem;
 	}
 
 	.xl\:pt-16 {
