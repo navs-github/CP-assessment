@@ -67,8 +67,13 @@ import family_2 from '../img/family_2.webp'
 import family_3 from '../img/family_3.webp'
 import family_4 from '../img/family_4.webp'
 import family_5 from '../img/family_5.webp'
+import { useEffect } from 'react';
 
 function Landing() {
+    imageList = [hero_mobile, hero]
+    imageList.forEach((image) => {
+        new Image().src = image
+    });
     function logoSwitch() {
         $('.altLogo').each(function () {
             $(this).css('top',
