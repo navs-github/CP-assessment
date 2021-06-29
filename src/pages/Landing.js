@@ -505,46 +505,6 @@ function Landing() {
                     <LogoBlueReplace />
                     <h2 className="text-[24px] text-center leading-[51px]">Real Families Use The Brain Program</h2>
                     <CarouselProvider //📱
-                        className="hidden xl:block mt-[30px]"
-                        naturalSlideWidth={270}
-                        naturalSlideHeight={202}
-                        visibleSlides={4}
-                        totalSlides={5}
-                        step={1}
-                    >
-                        <Slider>
-                            <div className=" flex flex-row flex-shrink-0 space-x-5">
-                                <Slide index={0}>
-                                    <img src={family_1} alt="" srcSet="" />
-                                </Slide>
-                                <Slide index={1}>
-                                    <img src={family_2} alt="" srcSet="" />
-                                </Slide>
-                                <Slide index={2}>
-                                    <img src={family_3} alt="" srcSet="" />
-                                </Slide>
-                                <Slide index={3}>
-                                    <img src={family_4} alt="" srcSet="" />
-                                </Slide>
-                                <Slide index={4}>
-                                    <img src={family_5} alt="" srcSet="" />
-                                </Slide>
-                            </div>
-                        </Slider>
-                        <div className="mt-4 flex flex-row justify-around">
-                            <ButtonBack>
-                                <svg width="17" height="31" viewBox="0 0 17 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fillRule="evenodd" clipRule="evenodd" d="M17 29.1548L15.1915 31L1.80851 17.3453L-1.35505e-06 15.5L8.18363e-06 15.5L1.80852 13.6548L15.1915 5.79267e-07L17 1.84524L3.61703 15.5L17 29.1548Z" fill="#C4C4C4" />
-                                </svg>
-                            </ButtonBack>
-                            <ButtonNext>
-                                <svg width="17" height="31" viewBox="0 0 17 31" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path fillRule="evenodd" clipRule="evenodd" d="M-1.74603e-06 29.1548L1.80851 31L15.1915 17.3453L17 15.5L17 15.5L15.1915 13.6548L1.80852 5.79267e-07L1.01782e-05 1.84524L13.383 15.5L-1.74603e-06 29.1548Z" fill="#C4C4C4" />
-                                </svg>
-                            </ButtonNext>
-                        </div>
-                    </CarouselProvider>
-                    <CarouselProvider //💻
                         className=" xl:hidden mt-[30px]"
                         naturalSlideWidth={270}
                         naturalSlideHeight={202}
@@ -584,6 +544,47 @@ function Landing() {
                             </ButtonNext>
                         </div>
                     </CarouselProvider>
+                    <CarouselProvider //💻
+                        className="hidden xl:block mt-[30px]"
+                        naturalSlideWidth={270}
+                        naturalSlideHeight={202}
+                        visibleSlides={4}
+                        totalSlides={5}
+                        step={1}
+                    >
+                        <Slider>
+                            <div className=" flex flex-row flex-shrink-0 space-x-5">
+                                <Slide index={0}>
+                                    <img src={family_1} alt="" srcSet="" />
+                                </Slide>
+                                <Slide index={1}>
+                                    <img src={family_2} alt="" srcSet="" />
+                                </Slide>
+                                <Slide index={2}>
+                                    <img src={family_3} alt="" srcSet="" />
+                                </Slide>
+                                <Slide index={3}>
+                                    <img src={family_4} alt="" srcSet="" />
+                                </Slide>
+                                <Slide index={4}>
+                                    <img src={family_5} alt="" srcSet="" />
+                                </Slide>
+                            </div>
+                        </Slider>
+                        <div className="mt-4 flex flex-row justify-around">
+                            <ButtonBack>
+                                <svg width="17" height="31" viewBox="0 0 17 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fillRule="evenodd" clipRule="evenodd" d="M17 29.1548L15.1915 31L1.80851 17.3453L-1.35505e-06 15.5L8.18363e-06 15.5L1.80852 13.6548L15.1915 5.79267e-07L17 1.84524L3.61703 15.5L17 29.1548Z" fill="#C4C4C4" />
+                                </svg>
+                            </ButtonBack>
+                            <ButtonNext>
+                                <svg width="17" height="31" viewBox="0 0 17 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fillRule="evenodd" clipRule="evenodd" d="M-1.74603e-06 29.1548L1.80851 31L15.1915 17.3453L17 15.5L17 15.5L15.1915 13.6548L1.80852 5.79267e-07L1.01782e-05 1.84524L13.383 15.5L-1.74603e-06 29.1548Z" fill="#C4C4C4" />
+                                </svg>
+                            </ButtonNext>
+                        </div>
+                    </CarouselProvider>
+
                 </Layout>
             </section>
             <section className="w-screen bg-[#EAECEF] text-black row overflow-hidden relative">
