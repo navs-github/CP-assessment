@@ -1217,6 +1217,12 @@ video {
 .leading-\[22px\] {
 	line-height: 22px;
 }
+.leading-6 {
+	line-height: 1.5rem;
+}
+.leading-9 {
+	line-height: 2.25rem;
+}
 .text-white {
 	--tw-text-opacity: 1;
 	color: rgba(255, 255, 255, var(--tw-text-opacity));
@@ -1463,8 +1469,17 @@ video {
 		font-size: 42px;
 	}
 
+	.xl\:text-4xl {
+		font-size: 2.25rem;
+		line-height: 2.5rem;
+	}
+
 	.xl\:leading-\[52px\] {
 		line-height: 52px;
+	}
+
+	.xl\:leading-\[51px\] {
+		line-height: 51px;
 	}
 
 	.xl\:opacity-0 {
