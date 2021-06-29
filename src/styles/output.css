@@ -1292,6 +1292,10 @@ video {
 		margin-top: 8rem;
 	}
 
+	.xl\:mt-16 {
+		margin-top: 4rem;
+	}
+
 	.xl\:block {
 		display: block;
 	}

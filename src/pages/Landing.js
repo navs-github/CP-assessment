@@ -446,12 +446,13 @@ function Landing() {
                 <Layout mobile={'px-6 py-10'} laptop={'xl:px-[200px] xl:py-16'} desktop={''}>
                     <LogoWhite />
                     <h1 className="text-2xl xl:text-4xl text-center leading-9 xl:leading-[51px]">Our evidence-based and scientifically designed program offers a natural, gentle and proven approach to developing optimal brain health and function</h1>
+
                 </Layout>
             </section>
             <section className="w-screen bg-[#F5F2ED] text-white row overflow-hidden relative">
                 <Layout mobile={'px-6 py-10'} laptop={'xl:px-[150px] xl:py-16'} desktop={''}>
                     <LogoBlueReplace />
-                    <div className="flex flex-col space-y-[100px] xl:space-y-0 xl:flex-row xl:space-x-3.5 text-black">
+                    <div className="flex flex-col space-y-[100px]xl:space-y-0 xl:flex-row xl:space-x-3.5 text-black">
                         <PlanCard layout={'h-[750px] mt-[60px]'}>
                             <PlanCardLogo logo={ltd_logo} />
                             <PlanCardHeading heading={'Try The Brain Program For Free'} />
@@ -482,7 +483,7 @@ function Landing() {
                                 <LargeButton text={'Get Started'} color={'bg-[#708CB1]'} />
                             </div>
                         </PlanCard>
-                        <PlanCard layout={'h-[750px] xl:mt-[60px]'}>
+                        <PlanCard layout={'h-[750px] xl:mt-16'}>
                             <PlanCardHeading heading={'The Brain Program Shift60'} />
                             <PlanCardBody body={'An introductory 60 Day Self-Directed Program designed to improve focus, boost productivity, and sharpen listening skills in just 60 15-minute listening sessions.'} />
                             <PlanCardListContainer>
