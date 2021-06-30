@@ -461,8 +461,8 @@ function Landing() {
             <section className="w-screen bg-[#F5F2ED] text-white row overflow-hidden relative">
                 <Layout mobile={'px-6 py-10'} laptop={'xl:px-[150px] xl:py-16'} desktop={''}>
                     <LogoBlueReplace />
-                    <div className="flex flex-col space-y-[100px] xl:space-y-0 xl:flex-row xl:space-x-3.5 text-black">
-                        <PlanCard layout={'h-[750px] mt-[60px]'}>
+                    <div className="flex flex-col xl:flex-row xl:space-x-3.5 text-black">
+                        <PlanCard layout={'h-[750px] mt-24 xl:mt-16'}>
                             <PlanCardLogo logo={ltd_logo} />
                             <PlanCardHeading heading={'Try The Brain Program For Free'} />
                             <PlanCardBody body={'Risk Free Trial of the Full The Brain Program Experience.'} />
@@ -476,7 +476,7 @@ function Landing() {
                                 <LargeButton text={'Try For Free'} />
                             </div>
                         </PlanCard>
-                        <PlanCard>
+                        <PlanCard layout={'mt-24 xl:mt-0'}>
                             <PlanCardLogo logo={popular_logo} />
                             <PlanCardHeading heading={'The Brain Program Pro '} />
                             <PlanCardBody body={'Experience all the benefits The Brain Program has to offer with a twice a day curriculum and tools to track your goals.'} />
@@ -492,7 +492,7 @@ function Landing() {
                                 <LargeButton text={'Get Started'} color={'bg-[#708CB1]'} />
                             </div>
                         </PlanCard>
-                        <PlanCard layout={'h-[750px] xl:mt-16'}>
+                        <PlanCard layout={'h-[750px] mt-24 xl:mt-16'}>
                             <PlanCardHeading heading={'The Brain Program Shift60'} />
                             <PlanCardBody body={'An introductory 60 Day Self-Directed Program designed to improve focus, boost productivity, and sharpen listening skills in just 60 15-minute listening sessions.'} />
                             <PlanCardListContainer>
