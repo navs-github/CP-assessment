@@ -461,7 +461,7 @@ function Landing() {
             <section className="w-screen bg-[#F5F2ED] text-white row overflow-hidden relative">
                 <Layout mobile={'px-6 py-10'} laptop={'xl:px-[150px] xl:py-16'} desktop={''}>
                     <LogoBlueReplace />
-                    <div className="flex flex-col space-y-[100px]xl:space-y-0 xl:flex-row xl:space-x-3.5 text-black">
+                    <div className="flex flex-col space-y-[100px] xl:space-y-0 xl:flex-row xl:space-x-3.5 text-black">
                         <PlanCard layout={'h-[750px] mt-[60px]'}>
                             <PlanCardLogo logo={ltd_logo} />
                             <PlanCardHeading heading={'Try The Brain Program For Free'} />
