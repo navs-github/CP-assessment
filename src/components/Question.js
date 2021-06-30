@@ -26,7 +26,9 @@ function Question(props) {
                         </svg>
                     }
                 </div>
-                <p className={"mt-3.5 pr-8 text-lg leading-[28px] transition-all " + (Toggle ? 'block animate-slidedown ' : 'hidden animate-none')}>{props.answer}</p>
+                <div className={"mt-3.5 pr-8 text-lg leading-[28px] transition-all " + (Toggle ? 'block animate-slidedown ' : 'hidden animate-none')}>
+                    <p className="">{props.answer}</p>
+                </div>
                 <div className="mt-5 w-full h-0.5 bg-[#C4C4C4]"></div>
             </button>
         </div>
